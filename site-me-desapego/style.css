@@ -37,6 +37,21 @@ body{
 	transition: .2s;
 }
 
+.titulo{
+	font-size: 38px;
+	text-align: center;
+	margin: 90px;
+}
+
+.produtos-box{
+	padding: 40px 4%;
+}
+
+.produto{
+	display: inline-block;
+	padding: 40px;
+	justify-content: center;
+}
 
 /* ESTILO DO CABEÇALHO */
 
@@ -65,7 +80,7 @@ header nav ul{
 header nav ul li{
 	display: inline-block;
 	padding: 10px 15px;
-	margin: 5px 5px;
+	margin: 5px 2px;
 	justify-content: center;
 	align-items: center;
 
