@@ -46,15 +46,38 @@ body{
 	margin: 90px;
 }
 
+.produtos-box-titulo{
+	margin-top: 45px;
+}
+
 .produtos-box{
 	padding: 40px 4%;
 }
 
-.produto{
-	display: inline-block;
-	padding: 40px;
-	justify-content: center;
+.flex{
+	border: 2px solid #5DC1B9;
+	border-radius: 15px;
+	display: flex;
+	justify-content: space-around;
 }
+
+.produto{
+	/* display: inline-block; */
+	padding: 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+	/* justify-content: center; */
+}
+
+.produto-foto{
+	background-color: rgba(128, 128, 128, 0.205);
+	width: 197px;
+	height: 200px;
+	border-radius: 15px;
+}
+
 
 /* ESTILO DO CABEÇALHO */
 
@@ -94,9 +117,6 @@ header nav ul li{
 
 .hero-container{
 	position: relative;
-}
-
-.hero-container{
 	background: url(./imgs/Background-Hero.svg);
 	height: 800px;
 	width: 100%;
