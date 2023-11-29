@@ -24,6 +24,7 @@ body{
     justify-content: center;
     align-items: center;
     gap: 10px;
+	border: none;
     Border-radius: 15px;
     background:  #5DC1B9;
 	text-decoration: none;
@@ -31,7 +32,9 @@ body{
 	color: #fff;
 	cursor: pointer;
 }
-
+.menu-botao button{
+	border: 2px solid #FFF;
+}
 .botao button:hover{
 	transform: scale(1.05);
 	transition: .2s;
@@ -107,7 +110,6 @@ header nav ul li{
   	left: 50%;
   	padding: 1rem;
 	text-align: center;
-
 }
 
 #texto1{
