@@ -78,6 +78,69 @@ body{
 	border-radius: 15px;
 }
 
+.doacoes{
+	margin-top: 50px;
+	background-color: rgba(128, 128, 128, 0.205);
+	background-image: url('imgs/Doção-Background.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height:150px;
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	justify-content: center;
+	gap: 20px;
+}
+
+.doacoes-items{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.footer-container, .footer-container a{
+	background-color: #005954;
+    color: white;
+}
+
+.footer-items{
+	display: flex;
+	justify-content: center;
+	padding: 30px;
+	gap: 30px;
+}
+.rodape-logo{
+	display: flex;
+	align-items: center;
+}
+.footer-divisoria{
+	background-color: white;
+	width: 2px;
+	height: 310px;
+}
+
+.footer-contato, .footer-sobre{
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.footer-sobre-texto{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.footer-whatsapp, .footer-email{
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+
+.footer-sobre-texto, .footer-faq{
+	margin-top: 40px;
+}
+
 
 /* ESTILO DO CABEÇALHO */
 
@@ -156,3 +219,5 @@ header nav ul li{
 	line-height: normal;
 	gap: 15px;
 }
+
+
