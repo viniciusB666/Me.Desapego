@@ -78,6 +78,8 @@ body{
 	border-radius: 15px;
 }
 
+
+
 .doacoes{
 	margin-top: 50px;
 	background-color: rgba(128, 128, 128, 0.205);
@@ -126,11 +128,6 @@ body{
 	gap: 30px;
 }
 
-.footer-sobre-texto{
-	display: flex;
-	flex-direction: column;
-	gap: 20px;
-}
 .footer-whatsapp, .footer-email{
 	display: flex;
 	align-items: center;
@@ -140,6 +137,12 @@ body{
 .footer-sobre-texto, .footer-faq{
 	margin-top: 40px;
 }
+.footer-sobre-texto{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
 
 
 /* ESTILO DO CABEÇALHO */
@@ -196,7 +199,9 @@ header nav ul li{
 	flex-direction: column;
 	gap: 20px;
 }
-
+.hero-logo{
+	margin: auto;
+}
 .hero-botao button{
 	margin-top: 30px;
 }
