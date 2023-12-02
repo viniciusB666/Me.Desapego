@@ -78,7 +78,7 @@ body{
 	border-radius: 15px;
 }
 
-
+/*ESTILO BANNER DOAÇÕES*/
 
 .doacoes{
 	margin-top: 50px;
@@ -100,6 +100,8 @@ body{
 	flex-direction: column;
 	gap: 20px;
 }
+
+/* ESTILO DO FOOTER*/
 
 .footer-container, .footer-container a{
 	background-color: #005954;
