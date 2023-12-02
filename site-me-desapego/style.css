@@ -114,7 +114,7 @@ body{
 	padding: 30px;
 	gap: 30px;
 }
-.rodape-logo{
+.footer-logo{
 	display: flex;
 	align-items: center;
 }
@@ -161,6 +161,10 @@ header > .interface{
 	justify-content: space-between;
 }
 
+header .header-logo{
+	font-size: 20px;
+	color: #FFF;
+}
 header a{
 	text-decoration: none;
 	color: #fff;
