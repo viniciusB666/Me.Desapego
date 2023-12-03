@@ -161,10 +161,6 @@ header > .interface{
 	justify-content: space-between;
 }
 
-header .header-logo{
-	font-size: 20px;
-	color: #FFF;
-}
 header a{
 	text-decoration: none;
 	color: #fff;
