@@ -228,3 +228,19 @@ header nav ul li{
 }
 
 
+/*ESTILO DA ABA PRODUTOS*/
+
+.titulo-aba-produtos{
+	font-size: 54px;
+	text-align:left;
+	margin: 90px 0px 15px 0px;
+	font-weight: normal;
+}
+
+.produtos-box-aba-produtos{
+	padding: 0px;
+}
+
+.footer-container-aba-produtos{
+	margin-top: 110px;
+}
