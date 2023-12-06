@@ -366,3 +366,22 @@ header nav ul li{
 	margin-top: 100px;
 }
 
+/* ESTILO DOAÇÕES*/
+
+.flex-doacoes{
+	text-align: center;
+	font-size: 25px;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	padding: 30px;
+}
+
+.botao-faq button{
+	color: black;
+	font-size: 38px;
+}
+
+.footer-container-faq{
+	margin-top: 100px;
+}
