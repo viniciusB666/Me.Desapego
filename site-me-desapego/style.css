@@ -243,3 +243,106 @@ header nav ul li{
 .footer-container-aba-produtos{
 	margin-top: 110px;
 }
+
+/* ESTILO PRODUTO */
+
+
+.flex-produtos-geral{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.flex-produtos-texto{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+}
+.produtos-box{
+    padding: 0px;
+}
+
+
+.flex-produto-texto1{
+    width: 670px;
+    padding: 20px 40px 10px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.titulo-produto{
+    font-size: 38px;
+    text-align: center;
+    margin: 0px
+}
+
+
+
+
+.produto-foto-principal{
+    width: 550px;
+    height: 450px;
+}
+
+
+.produto-preco{
+    font-size: 25px;
+    background-color: #5DC1B9;
+    width: 115px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.produtos-geral{
+    margin-top: 100px;
+}
+
+
+
+
+.produto-botao button{
+    padding: 15px 30px 15px 30px;
+    font-weight: normal;
+    font-size: 25px;
+    color: black;
+    display: flex;
+    margin: auto;
+}
+
+
+.botao {
+    text-decoration: none;
+}
+
+
+.flex-produto-compra{
+    width: 670px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px 20px 40px;
+}
+
+
+.compra-titulo{
+    font-size: 38px;
+}
+
+
+
+
+.flex-informacoes{
+    padding: 30px
+}
+
+
+.footer-container-produto{
+    margin-top: 100px;
+}
