@@ -25,7 +25,7 @@ body{
     align-items: center;
     gap: 10px;
 	border: none;
-    Border-radius: 10px;
+    border-radius: 10px;
     background:  #2d9a91;
 	text-decoration: none;
 	font-weight: 600;
@@ -53,7 +53,7 @@ body{
 
 .flex{
 	border: 2px solid #5DC1B9;
-	border-radius: 15px;
+	border-radius: 10px;
 	display: flex;
 	justify-content: space-around;
 }
@@ -73,7 +73,7 @@ body{
 	background-color: rgba(128, 128, 128, 0.205);
 	width: 197px;
 	height: 200px;
-	border-radius: 15px;
+	border-radius: 10px;
 }
 
 /*ESTILO BANNER DOAÇÕES*/
